@@ -30,4 +30,5 @@ com.edupack.app-merged_res-28 /Users/gost/Documents/GitHub/edupack/android/app/b
 com.edupack.app-debug-29 /Users/gost/Documents/GitHub/edupack/android/app/src/debug/res
 com.edupack.app-main-30 /Users/gost/Documents/GitHub/edupack/android/app/src/main/res
 com.edupack.app-packaged_res-31 /Users/gost/Documents/GitHub/edupack/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/packaged_res/debug
-com.edupack.app-packaged_res-32 /Users/gost/Documents/GitHub/edupack/node_modules/react-native-webview/android/build/intermediates/packaged_res/debug
+com.edupack.app-packaged_res-32 /Users/gost/Documents/GitHub/edupack/node_modules/@react-native-community/netinfo/android/build/intermediates/packaged_res/debug
+com.edupack.app-packaged_res-33 /Users/gost/Documents/GitHub/edupack/node_modules/react-native-webview/android/build/intermediates/packaged_res/debug

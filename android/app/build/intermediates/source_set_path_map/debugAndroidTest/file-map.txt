@@ -1,0 +1,4 @@
+com.edupack.test.app-androidTest-0 /Users/gost/Documents/GitHub/edupack/android/app/build/generated/res/resValues/androidTest/debug
+com.edupack.test.app-mergeDebugAndroidTestResources-1 /Users/gost/Documents/GitHub/edupack/android/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.edupack.test.app-mergeDebugAndroidTestResources-2 /Users/gost/Documents/GitHub/edupack/android/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.edupack.test.app-merged_res-3 /Users/gost/Documents/GitHub/edupack/android/app/build/intermediates/merged_res/debugAndroidTest

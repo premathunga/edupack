@@ -1,4 +1,4 @@
-package com.edupack
+package lk.edupack
 
 import android.app.Application
 import com.facebook.react.PackageList
