@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.edupack",
+  "applicationId": "lk.edupack",
   "variantName": "debug",
   "elements": [
     {

@@ -1,0 +1,4 @@
+#Wed Mar 06 22:53:26 IST 2024
+base.0=/Users/gost/Documents/GitHub/edupack/android/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

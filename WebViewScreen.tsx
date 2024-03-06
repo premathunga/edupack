@@ -40,12 +40,17 @@ const WebViewScreen: React.FC = () => {
 
   const handleWebViewLoad = (syntheticEvent: any) => {
     const { nativeEvent } = syntheticEvent;
-
+  
     if (!nativeEvent.loading) {
       AsyncStorage.setItem('offlineUrl', nativeEvent.url);
-      setIsLoading(false); // Set loading to false once the website has loaded
+  
+      // Set loading to false after three seconds
+      setTimeout(() => {
+        setIsLoading(false);
+      }, 3000);
     }
   };
+  
 
   return (
     <View style={{ flex: 1 }}>
@@ -86,32 +91,33 @@ const WebViewScreen: React.FC = () => {
 };
 
 const styles = StyleSheet.create({
-  modalContainer: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: 'rgba(0, 0, 0, 0.5)',
-  },
-  modalContent: {
-    backgroundColor: 'black',
-    padding: 20,
-    borderRadius: 10,
-    alignItems: 'center',
-  },
-  modalText: {
-    fontSize: 18,
-    marginBottom: 10,
-  },
-  closeButton: {
-    color: 'blue',
-    fontSize: 16,
-    marginTop: 10,
-  },
-  loadingContainer: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-});
-
-export default WebViewScreen;
+    modalContainer: {
+      flex: 1,
+      justifyContent: 'center',
+      alignItems: 'center',
+      backgroundColor: 'rgba(0, 0, 0, 0.5)',
+    },
+    modalContent: {
+      backgroundColor: 'black',
+      padding: 20,
+      borderRadius: 10,
+      alignItems: 'center',
+    },
+    modalText: {
+      fontSize: 18,
+      marginBottom: 10,
+    },
+    closeButton: {
+      color: 'blue',
+      fontSize: 16,
+      marginTop: 10,
+    },
+    loadingContainer: {
+      flex: 1,
+      justifyContent: 'center',
+      alignItems: 'center',
+      backgroundColor: 'black', // Set a background color for full-screen loading
+    },
+  });
+  
+  export default WebViewScreen;

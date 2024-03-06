@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.edupack"
+3    package="lk.edupack"
 4    android:versionCode="1"
 5    android:versionName="1.0" >
 6
@@ -27,18 +27,18 @@
 19
 20    <permission
 20-->[androidx.core:core:1.9.0] /Users/gost/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
-21        android:name="com.edupack.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+21        android:name="lk.edupack.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
 21-->[androidx.core:core:1.9.0] /Users/gost/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
 22        android:protectionLevel="signature" />
 22-->[androidx.core:core:1.9.0] /Users/gost/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
 23
-24    <uses-permission android:name="com.edupack.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+24    <uses-permission android:name="lk.edupack.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 24-->[androidx.core:core:1.9.0] /Users/gost/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
 24-->[androidx.core:core:1.9.0] /Users/gost/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
 25
 26    <application
 26-->/Users/gost/Documents/GitHub/edupack/android/app/src/main/AndroidManifest.xml:5:5-24:19
-27        android:name="com.edupack.MainApplication"
+27        android:name="lk.edupack.MainApplication"
 27-->/Users/gost/Documents/GitHub/edupack/android/app/src/main/AndroidManifest.xml:6:7-38
 28        android:allowBackup="false"
 28-->/Users/gost/Documents/GitHub/edupack/android/app/src/main/AndroidManifest.xml:10:7-34
@@ -58,7 +58,7 @@
 36-->/Users/gost/Documents/GitHub/edupack/android/app/src/debug/AndroidManifest.xml:6:9-44
 37        <activity
 37-->/Users/gost/Documents/GitHub/edupack/android/app/src/main/AndroidManifest.xml:12:7-23:18
-38            android:name="com.edupack.MainActivity"
+38            android:name="lk.edupack.MainActivity"
 38-->/Users/gost/Documents/GitHub/edupack/android/app/src/main/AndroidManifest.xml:13:9-37
 39            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
 39-->/Users/gost/Documents/GitHub/edupack/android/app/src/main/AndroidManifest.xml:15:9-118
@@ -86,7 +86,7 @@
 51-->[:react-native-webview] /Users/gost/Documents/GitHub/edupack/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-16:20
 52            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
 52-->[:react-native-webview] /Users/gost/Documents/GitHub/edupack/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-83
-53            android:authorities="com.edupack.fileprovider"
+53            android:authorities="lk.edupack.fileprovider"
 53-->[:react-native-webview] /Users/gost/Documents/GitHub/edupack/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-64
 54            android:exported="false"
 54-->[:react-native-webview] /Users/gost/Documents/GitHub/edupack/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-37
@@ -111,7 +111,7 @@
 65-->[androidx.emoji2:emoji2:1.2.0] /Users/gost/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
 66            android:name="androidx.startup.InitializationProvider"
 66-->[androidx.emoji2:emoji2:1.2.0] /Users/gost/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
-67            android:authorities="com.edupack.androidx-startup"
+67            android:authorities="lk.edupack.androidx-startup"
 67-->[androidx.emoji2:emoji2:1.2.0] /Users/gost/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
 68            android:exported="false" >
 68-->[androidx.emoji2:emoji2:1.2.0] /Users/gost/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37

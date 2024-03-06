@@ -1,7 +1,0 @@
-#Wed Mar 06 22:27:11 IST 2024
-base.0=/Users/gost/Documents/GitHub/edupack/android/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/0/classes.dex
-base.1=/Users/gost/Documents/GitHub/edupack/android/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/7/classes.dex
-path.0=0/classes.dex
-path.1=7/classes.dex
-renamed.0=classes.dex
-renamed.1=classes2.dex
